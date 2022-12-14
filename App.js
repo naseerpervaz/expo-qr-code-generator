@@ -5,7 +5,8 @@ import QRCode from 'react-native-qrcode-svg';
 export default function App() {
   return (
     <View style={styles.container}>
-      <QRCode value='https://www.gohoopo.com/' />
+      {/* <QRCode value='https://www.gohoopo.com/' /> */}
+      <QRCode value='https://www.gohoopo.com/flood-relief' />
       <StatusBar style="auto" />
     </View>
   );
